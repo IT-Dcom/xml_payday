@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<relay id="45">
+	<type> depot </type>
+	<products>
+		<product>
+			<id> 29240 </id>
+			<price> 10 </price>
+		</product>
+		<product>
+			<id> 29241 </id>
+			<price> 2 </price>
+		</product>
+		<product>
+			<id> 29242 </id>
+			<price> 2 </price>
+		</product>
+	</products>
+</relay>
+
