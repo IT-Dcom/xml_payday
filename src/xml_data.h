@@ -9,7 +9,7 @@ typedef struct XML_Data {
   double *price;
 }XML_Data;
 
-XML_Data *XML_Data_init();
-bool XML_Data_destroy(XML_Data* data);
+XML_Data *XML_Data_init   ();
+bool      XML_Data_destroy(XML_Data *);
 
 #endif /* __XML_DATA_H__ */
