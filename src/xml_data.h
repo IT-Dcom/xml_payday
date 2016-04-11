@@ -1,7 +1,6 @@
 #ifndef __XML_DATA_H__
 #define __XML_DATA_H__
 
-#include <stdlib.h>
 #include <stdbool.h>
 
 typedef struct XML_Data {

@@ -6,11 +6,13 @@ set(SRCS
 	  main.c
 		directory.c
 		xml_data.c
+		xml_reader.c
 	  )
 
 set(HEADERS
 		directory.h
 		xml_data.h
+		xml_reader.h
 	 )
 
 find_package(LibXml2 REQUIRED)
