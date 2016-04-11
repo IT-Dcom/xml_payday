@@ -1,3 +1,4 @@
+#include <stdlib.h>
 #include "xml_data.h"
 
 XML_Data *
