@@ -5,6 +5,7 @@
 #include "directory.h"
 #include "xml_data.h"
 #include "xml_reader.h"
+#include "xml_writer.h"
 
 int
 main (void) {
@@ -35,6 +36,8 @@ main (void) {
     if(data->price[i] != 0.0)
       printf("Relay %lu -> %lf€\n", i, data->price[i]);
   }
+
+  write_data("result.xml", *data);
 
   XML_Data_destroy(data);
 
